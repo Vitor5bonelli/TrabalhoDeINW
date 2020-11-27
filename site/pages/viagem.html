@@ -1,0 +1,90 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../image/viagem.png">
+</head>
+
+<body style="background-color: #46B9AC;">
+
+    <div style="background-color: #3265CD; border: 1px solid black;">
+
+        <h1 style="color: #CD9A32; text-align:center;">R.R.Viagens</h1>
+        <h2 style="color: #CD9A32; text-align:center;">Trazendo o maior conforto e rapidez, á você e sua família.</h2>
+    
+    </div>
+    <fieldset>
+        <form >
+            <label for="numero">Número do Voo: </label> 
+            <input type="text" id="numero" name="numerovoo" placeholder="Digite o número do Voo" required> 
+            <br> <br>
+
+            <label for="piloto">Piloto:</label>
+            <select name="piloto" id="piloto">
+
+                <option value="Silvia Lima">Silvia Lima</option>
+                <option value="Carmen da Silva Costa">Carmen da Silva Costa</option>
+                <option value="Lucas Ferreira Lima">Lucas Ferreira Lima</option>
+                <option value="Bruno Ferreira Santos">Bruno Ferreira Santos</option>
+                <option value="Leonardo Da Silva Gomes">Leonardo Da Silva Gomes</option>
+                <option value="Michele Lima Casale">Michele Lima Casale</option>
+                <option value="Renan Cardoso Soares">Renan Cardoso Soares</option>
+
+            </select>
+            <br><br> 
+
+            <label for="datasaida">Data de saída:</label>
+            <input type="date" id="datasaida" name="datasaida">
+            <br><br>
+
+            <label for="horariosaida">Horário de saída:</label>
+            <input type="time" id="horariosaida" name="horariosaida">
+            <br><br>
+
+        
+            <label for="datachegada">Data de chegada:</label>
+            <input type="date" id="datachegada" name="datachegada">
+            <br><br>
+
+            <label for="horariochegada">Horário de chegada:</label>
+            <input type="time" id="horariochegada" name="horariochegada">
+            <br><br>
+
+            <label for="ocorrencias">Digite abaixo as ocorrências durante o Voo: </label> <br>
+            <textarea name="ocorrencias" id="ocorrencias" cols="35" rows="5" placeholder=" Digite aqui as ocorrências durante o Voo"> 
+            </textarea>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Redefinir">
+            
+
+    
+    
+        </form>
+
+        <button>Listar Todos</button>
+        <button>Listar Um</button>
+        <button>Incluir</button>
+        <button>Alterar</button>
+        <button>Excluir</button>
+        
+    </fieldset>
+    <nav> <!--Links de acesso á outras páginas-->
+        <ul>
+            <li><a href="../index.html" title="Retorne à página inicial.">Retorne à página inicial 🧭</a><br></li>
+            <li><a href="pilotos.html" title="Vá para a pagina de pilotos">Página de Pilotos 👨‍✈️</a><br></li>
+            <li><a href="voos.html" title="Vá para a pagina de Voos">Página de Voos ✈️</a><br></li>
+            <li><a href="paginaderelatorios.html" title="Vá para a pagina de relatórios">Página de Relatórios 📝</a><br></li>
+            <li><a href="sair.html" title="Saia do site.">Sair ❌</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+    <footer> <!--Nome do grupo-->
+        <p>Site feito em conjunto por <i>Renan Brufato / Renan Lima / Vitor Bonelli &reg;</i></p>
+    </footer>
+    
+</body>
+</html>
